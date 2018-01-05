@@ -5,5 +5,22 @@ package com.yoti.entity;
  */
 public class Dirt {
 
+    private int dirtX;
+    private int dirtY;
 
+    public int getDirtX() {
+        return dirtX;
+    }
+
+    public void setDirtX(int dirtX) {
+        this.dirtX = dirtX;
+    }
+
+    public int getDirtY() {
+        return dirtY;
+    }
+
+    public void setDirtY(int dirtY) {
+        this.dirtY = dirtY;
+    }
 }
