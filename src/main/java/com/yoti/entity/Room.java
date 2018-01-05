@@ -8,6 +8,11 @@ public class Room {
     private int roomX;
     private int roomY;
 
+    public Room(int roomX, int roomY) {
+        this.roomX = roomX;
+        this.roomY = roomY;
+    }
+
     public int getRoomX() {
         return roomX;
     }

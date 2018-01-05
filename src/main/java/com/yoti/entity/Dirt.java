@@ -8,6 +8,11 @@ public class Dirt {
     private int dirtX;
     private int dirtY;
 
+    public Dirt(int dirtX, int dirtY) {
+        this.dirtX = dirtX;
+        this.dirtY = dirtY;
+    }
+
     public int getDirtX() {
         return dirtX;
     }

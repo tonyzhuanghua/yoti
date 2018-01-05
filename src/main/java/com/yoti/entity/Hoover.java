@@ -8,6 +8,11 @@ public class Hoover {
     private int hooverX;
     private int hooverY;
 
+    public Hoover(int hooverX, int hooverY) {
+        this.hooverX = hooverX;
+        this.hooverY = hooverY;
+    }
+
     public int getHooverX() {
         return hooverX;
     }
