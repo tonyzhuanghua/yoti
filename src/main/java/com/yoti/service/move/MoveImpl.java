@@ -8,6 +8,9 @@ import com.yoti.entity.Hoover;
 public class MoveImpl implements Move<Hoover,Direction> {
     public void moveStep(Hoover hoover, Direction direction) {
 
+ if(direction.getDirection().equals("E")){
+     int x = hoover.getHooverX()+1;
+ }
 
 
     }
